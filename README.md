@@ -24,7 +24,7 @@ cp .env.example .env
 uv run uvicorn neatsprint_ai.main:app --reload --port 8000
 ```
 
-Or from the orchestrator: `docker compose up -d ai`.
+Or from the orchestrator: `docker compose up -d neatsprint-ai`.
 
 ## Endpoints
 
